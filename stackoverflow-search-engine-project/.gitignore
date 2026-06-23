@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Scrapy crawl state
+.scrapy/
+crawls/
+
+# Database dumps / Large CSV datasets
+*.csv
+
+# SQLite development databases (if any)
+*.sqlite3
+db.sqlite3

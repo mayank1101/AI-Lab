@@ -1,0 +1,5 @@
+[settings]
+default = crawlers.settings
+
+[deploy]
+project = crawlers
