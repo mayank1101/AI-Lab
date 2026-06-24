@@ -28,9 +28,11 @@ Mayank-AI-Lab/
 │   ├── data/
 │   └── engine/
 ├── the-aiml-playbook/
-│   └── deep-learning-projects/
+│   ├── Project - Automatic Image Captioning/
+│   └── [9 other deep learning & NLP projects]
 ├── the-analytics-mosaic/
-│   └── analytics-projects/
+│   ├── A Visual History of Nobel Prize Winners/
+│   └── [9 other data analytics projects]
 ├── LICENSE
 └── README.md
 ```
@@ -39,11 +41,11 @@ Mayank-AI-Lab/
 
 | Project | Area | Highlights |
 | --- | --- | --- |
-| [Automatic Image Captioning](the-aiml-playbook/deep-learning-projects/Project%20-%20Automatic%20Image%20Captioning/) | Computer vision and NLP | CNN encoder, RNN decoder, MS COCO data, training and inference notebooks, saved checkpoints |
-| [Pneumonia Detection from Chest X-Rays](the-aiml-playbook/deep-learning-projects/Project%20-%20Pneumonia%20Detection%20from%20Chest%20X-Rays/) | Medical imaging | DICOM exploration, Keras classification, threshold evaluation, inference pipeline, FDA-style report |
-| [Facial Keypoint Detection](the-aiml-playbook/deep-learning-projects/Project%20-%20Facial%20Key%20Point%20Detection/) | Computer vision | PyTorch CNN regression, image augmentation, Haar cascades, end-to-end face processing |
-| [Deploying a Sentiment Analysis Model](the-aiml-playbook/deep-learning-projects/Project-%20Deploying%20Sentiment%20Analysis%20Model/) | NLP and deployment | PyTorch LSTM, SageMaker training and serving code, inference handlers, web client |
-| [Object Tracking and Localization](the-aiml-playbook/deep-learning-projects/Project%20-%20Object%20Tracking%20and%20Localization/) | Robotics | Robot motion and sensing, landmark constraints, Graph SLAM |
+| [Automatic Image Captioning](the-aiml-playbook/Project%20-%20Automatic%20Image%20Captioning/) | Computer vision and NLP | CNN encoder, RNN decoder, MS COCO data, training and inference notebooks, saved checkpoints |
+| [Pneumonia Detection from Chest X-Rays](the-aiml-playbook/Project%20-%20Pneumonia%20Detection%20from%20Chest%20X-Rays/) | Medical imaging | DICOM exploration, Keras classification, threshold evaluation, inference pipeline, FDA-style report |
+| [Facial Keypoint Detection](the-aiml-playbook/Project%20-%20Facial%20Key%20Point%20Detection/) | Computer vision | PyTorch CNN regression, image augmentation, Haar cascades, end-to-end face processing |
+| [Deploying a Sentiment Analysis Model](the-aiml-playbook/Project-%20Deploying%20Sentiment%20Analysis%20Model/) | NLP and deployment | PyTorch LSTM, SageMaker training and serving code, inference handlers, web client |
+| [Object Tracking and Localization](the-aiml-playbook/Project%20-%20Object%20Tracking%20and%20Localization/) | Robotics | Robot motion and sensing, landmark constraints, Graph SLAM |
 | [Credit Card Transactions Analysis](Courses/NamasteSQL/all_projects/) | SQL analytics | Business-oriented queries using aggregation, ranking, window functions, and cumulative metrics |
 
 ---
@@ -52,37 +54,37 @@ Mayank-AI-Lab/
 
 ### The AI/ML Playbook (Udacity Projects)
 
-Located under [the-aiml-playbook/deep-learning-projects/](the-aiml-playbook/deep-learning-projects/), this portfolio contains deep learning, computer vision, and NLP implementations.
+Located under [the-aiml-playbook/](the-aiml-playbook/), this portfolio contains deep learning, computer vision, and NLP implementations.
 
 | Project | Description | Main Techniques & Artifacts |
 | --- | --- | --- |
-| [Automatic Image Captioning](the-aiml-playbook/deep-learning-projects/Project%20-%20Automatic%20Image%20Captioning/) | Builds a CNN-RNN pipeline that learns to generate captions for images from the MS COCO dataset. | PyTorch, torchvision, COCO API, vocabulary building, `EncoderCNN`, `DecoderRNN`, training/inference notebooks, saved checkpoints |
-| [Bike Sharing Prediction](the-aiml-playbook/deep-learning-projects/Project%20-%20Bike%20sharing%20prediction/) | Predicts bike rental ridership from historical bike sharing data. | NumPy neural network implementation, pandas preprocessing, categorical encoding, feature scaling, train/validation/test workflow |
-| [Dog Breed Classifier](the-aiml-playbook/deep-learning-projects/Project%20-%20Dog%20Breed%20Classifier/) | Implements a dog identification app workflow that detects humans/dogs and predicts dog breeds. | CNN concepts, OpenCV Haar cascades, image preprocessing, transfer learning workflow |
-| [Facial Keypoint Detection](the-aiml-playbook/deep-learning-projects/Project%20-%20Facial%20Key%20Point%20Detection/) | Trains a convolutional neural network to locate facial keypoints and applies them in an face filter pipeline. | PyTorch, custom `Dataset`, image transforms, CNN model in `models.py`, Haar cascade detectors, saved model checkpoint |
-| [Image Style Transfer](the-aiml-playbook/deep-learning-projects/Project%20-%20Image%20Style%20Transfer/) | Recreates neural style transfer using deep VGG19 image features. | PyTorch, VGG19 feature extraction, content/style loss, optimization-based image generation |
-| [Object Tracking and Localization](the-aiml-playbook/deep-learning-projects/Project%20-%20Object%20Tracking%20and%20Localization/) | Implements robot sensing, motion, landmark detection, and Graph SLAM in a 2D world. | SLAM, omega/xi constraints, robot simulation, motion and measurement noise, helper visualization |
-| [Pneumonia Detection from Chest X-Rays](the-aiml-playbook/deep-learning-projects/Project%20-%20Pneumonia%20Detection%20from%20Chest%20X-Rays/) | Explores chest X-ray metadata, trains a pneumonia classification model, and prepares FDA-style documentation. | Keras, image augmentation, DICOM handling, pydicom, EDA notebook, training/inference notebooks, FDA submission |
-| [Sentimental Analysis](the-aiml-playbook/deep-learning-projects/Project%20-%20Sentimental%20Analysis/) | Frames sentiment classification as a neural network problem using review text. | NLP preprocessing, word counts, sentiment ratios, NumPy-based learning workflow |
-| [Deploying Sentiment Analysis Model](the-aiml-playbook/deep-learning-projects/Project-%20Deploying%20Sentiment%20Analysis%20Model/) | Builds and deploys a sentiment analysis web app backed by a PyTorch LSTM model on SageMaker. | PyTorch LSTM, SageMaker training and serving scripts, inference handlers, text cleaning utilities, HTML front end |
-| [TV Script Generation](the-aiml-playbook/deep-learning-projects/Project-%20TV%20Script%20Generation/) | Generates Seinfeld-style TV scripts from dialogue data. | Recurrent neural networks, sequence modeling, token lookup tables, PyTorch checkpoint |
+| [Automatic Image Captioning](the-aiml-playbook/Project%20-%20Automatic%20Image%20Captioning/) | Builds a CNN-RNN pipeline that learns to generate captions for images from the MS COCO dataset. | PyTorch, torchvision, COCO API, vocabulary building, `EncoderCNN`, `DecoderRNN`, training/inference notebooks, saved checkpoints |
+| [Bike Sharing Prediction](the-aiml-playbook/Project%20-%20Bike%20sharing%20prediction/) | Predicts bike rental ridership from historical bike sharing data. | NumPy neural network implementation, pandas preprocessing, categorical encoding, feature scaling, train/validation/test workflow |
+| [Dog Breed Classifier](the-aiml-playbook/Project%20-%20Dog%20Breed%20Classifier/) | Implements a dog identification app workflow that detects humans/dogs and predicts dog breeds. | CNN concepts, OpenCV Haar cascades, image preprocessing, transfer learning workflow |
+| [Facial Keypoint Detection](the-aiml-playbook/Project%20-%20Facial%20Key%20Point%20Detection/) | Trains a convolutional neural network to locate facial keypoints and applies them in an face filter pipeline. | PyTorch, custom `Dataset`, image transforms, CNN model in `models.py`, Haar cascade detectors, saved model checkpoint |
+| [Image Style Transfer](the-aiml-playbook/Project%20-%20Image%20Style%20Transfer/) | Recreates neural style transfer using deep VGG19 image features. | PyTorch, VGG19 feature extraction, content/style loss, optimization-based image generation |
+| [Object Tracking and Localization](the-aiml-playbook/Project%20-%20Object%20Tracking%20and%20Localization/) | Implements robot sensing, motion, landmark detection, and Graph SLAM in a 2D world. | SLAM, omega/xi constraints, robot simulation, motion and measurement noise, helper visualization |
+| [Pneumonia Detection from Chest X-Rays](the-aiml-playbook/Project%20-%20Pneumonia%20Detection%20from%20Chest%20X-Rays/) | Explores chest X-ray metadata, trains a pneumonia classification model, and prepares FDA-style documentation. | Keras, image augmentation, DICOM handling, pydicom, EDA notebook, training/inference notebooks, FDA submission |
+| [Sentimental Analysis](the-aiml-playbook/Project%20-%20Sentimental%20Analysis/) | Frames sentiment classification as a neural network problem using review text. | NLP preprocessing, word counts, sentiment ratios, NumPy-based learning workflow |
+| [Deploying Sentiment Analysis Model](the-aiml-playbook/Project-%20Deploying%20Sentiment%20Analysis%20Model/) | Builds and deploys a sentiment analysis web app backed by a PyTorch LSTM model on SageMaker. | PyTorch LSTM, SageMaker training and serving scripts, inference handlers, text cleaning utilities, HTML front end |
+| [TV Script Generation](the-aiml-playbook/Project-%20TV%20Script%20Generation/) | Generates Seinfeld-style TV scripts from dialogue data. | Recurrent neural networks, sequence modeling, token lookup tables, PyTorch checkpoint |
 
 ### The Analytics Mosaic (DataCamp Case Studies)
 
-Located under [the-analytics-mosaic/analytics-projects/](the-analytics-mosaic/analytics-projects/), these Python projects demonstrate applied data cleaning, exploratory analysis (EDA), and data visualization.
+Located under [the-analytics-mosaic/](the-analytics-mosaic/), these Python projects demonstrate applied data cleaning, exploratory analysis (EDA), and data visualization.
 
 | Case Study | What it analyzes | Data and skills demonstrated |
 | --- | --- | --- |
-| [A Visual History of Nobel Prize Winners](the-analytics-mosaic/analytics-projects/A%20Visual%20History%20of%20Nobel%20Prize%20Winners/) | Nobel Prize winners across year, category, country, gender, organization, and laureate attributes. | Historical EDA, grouped summaries, trend analysis, visualization-ready Nobel dataset |
-| [Analyzing Netflix Data](the-analytics-mosaic/analytics-projects/Analyzing%20Netflix%20Data/) | Netflix titles by type, release year, country, duration, genre, and metadata. | pandas filtering, content catalog analysis, movie/TV comparison, exploratory visualization |
-| [Analyzing TV Data](the-analytics-mosaic/analytics-projects/Analyzing%20TV%20Data/) | Super Bowl TV viewership, advertising cost, game outcomes, and halftime musicians. | Joins across multiple CSVs, sports/media analytics, viewer and ad-cost trends |
-| [Do Left-handed People Really Die Young?](the-analytics-mosaic/analytics-projects/Do%20Left-handed%20People%20Really%20Die%20Young_/) | Project folder for the left-handedness case study; the checked-in dataset is the Iris dataset. | Notebook-based EDA structure, small tabular dataset exploration |
-| [Exploring the Evolution of Linux](the-analytics-mosaic/analytics-projects/Exploring%20the%20Evolution%20of%20Linux/) | Linux git history using commit timestamps and authors. | Compressed data loading, contribution history analysis, author/activity trends |
-| [Name Game: Gender Prediction using Sound](the-analytics-mosaic/analytics-projects/Name%20Game_%20Gender%20Prediction%20using%20Sound/) | Predicts likely gender patterns in names using SSA baby names, NYSIIS encodings, and children's book author names. | Phonetic encoding, name normalization, grouped probability features |
-| [TV, Halftime Shows, and the Big Game](the-analytics-mosaic/analytics-projects/TV,%20Halftime%20Shows,%20and%20the%20Big%20Game/) | Super Bowl game, TV, and halftime performance data. | Multi-table EDA, sports analytics, event and media trend analysis |
-| [The Android App Market on Google Play](the-analytics-mosaic/analytics-projects/The%20Android%20App%20Market%20on%20Google%20Play/) | Google Play app metadata and user review sentiment. | Data cleaning, category analysis, ratings/reviews exploration, sentiment polarity and subjectivity analysis |
-| [The GitHub History of the Scala Language](the-analytics-mosaic/analytics-projects/The%20GitHub%20History%20of%20the%20Scala%20Language/) | Scala pull requests, changed files, contributors, and timeline history. | GitHub activity analysis, time series aggregation, contributor/file-level exploration |
-| [Who Is Drunk and When in Ames, Iowa?](the-analytics-mosaic/analytics-projects/Who%20Is%20Drunk%20and%20When%20in%20Ames,%20Iowa_/) | Breath alcohol test results by date, hour, location, gender, and measurement values. | Time-based EDA, public safety analytics, grouping by hour/location/month |
+| [A Visual History of Nobel Prize Winners](the-analytics-mosaic/A%20Visual%20History%20of%20Nobel%20Prize%20Winners/) | Nobel Prize winners across year, category, country, gender, organization, and laureate attributes. | Historical EDA, grouped summaries, trend analysis, visualization-ready Nobel dataset |
+| [Analyzing Netflix Data](the-analytics-mosaic/Analyzing%20Netflix%20Data/) | Netflix titles by type, release year, country, duration, genre, and metadata. | pandas filtering, content catalog analysis, movie/TV comparison, exploratory visualization |
+| [Analyzing TV Data](the-analytics-mosaic/Analyzing%20TV%20Data/) | Super Bowl TV viewership, advertising cost, game outcomes, and halftime musicians. | Joins across multiple CSVs, sports/media analytics, viewer and ad-cost trends |
+| [Do Left-handed People Really Die Young?](the-analytics-mosaic/Do%20Left-handed%20People%20Really%20Die%20Young_/) | Project folder for the left-handedness case study; the checked-in dataset is the Iris dataset. | Notebook-based EDA structure, small tabular dataset exploration |
+| [Exploring the Evolution of Linux](the-analytics-mosaic/Exploring%20the%20Evolution%20of%20Linux/) | Linux git history using commit timestamps and authors. | Compressed data loading, contribution history analysis, author/activity trends |
+| [Name Game: Gender Prediction using Sound](the-analytics-mosaic/Name%20Game_%20Gender%20Prediction%20using%20Sound/) | Predicts likely gender patterns in names using SSA baby names, NYSIIS encodings, and children's book author names. | Phonetic encoding, name normalization, grouped probability features |
+| [TV, Halftime Shows, and the Big Game](the-analytics-mosaic/TV,%20Halftime%20Shows,%20and%20the%20Big%20Game/) | Super Bowl game, TV, and halftime performance data. | Multi-table EDA, sports analytics, event and media trend analysis |
+| [The Android App Market on Google Play](the-analytics-mosaic/The%20Android%20App%20Market%20on%20Google%20Play/) | Google Play app metadata and user review sentiment. | Data cleaning, category analysis, ratings/reviews exploration, sentiment polarity and subjectivity analysis |
+| [The GitHub History of the Scala Language](the-analytics-mosaic/The%20GitHub%20History%20of%20the%20Scala%20Language/) | Scala pull requests, changed files, contributors, and timeline history. | GitHub activity analysis, time series aggregation, contributor/file-level exploration |
+| [Who Is Drunk and When in Ames, Iowa?](the-analytics-mosaic/Who%20Is%20Drunk%20and%20When%20in%20Ames,%20Iowa_/) | Breath alcohol test results by date, hour, location, gender, and measurement values. | Time-based EDA, public safety analytics, grouping by hour/location/month |
 
 ### StackOverflow Search Engine Project
 
